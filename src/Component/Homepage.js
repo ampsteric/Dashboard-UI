@@ -3,6 +3,7 @@ import img from '../Utils/wfh_1.svg'
 import google from '../Utils/google-icon.svg'
 import fb from '../Utils/../Utils/facebook.svg'
 import './homepage.css'
+import {Link} from 'react-router-dom'
 export default function Homepage() {
     return (
         <div>
@@ -26,8 +27,7 @@ export default function Homepage() {
                                         <label for="exampleInputPassword1">Password</label>
                                         <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                                     </div>
-                                    
-                                    <button type="submit" className="btn btn-primary">Sign In</button>
+                                    <a  href="/home" class="waves-effect waves-light btn">Sign In</a>
                                     <h6>New User? <a>signup instead</a> </h6>
                              </form>
                              <p>___________________or continue with_________________</p>

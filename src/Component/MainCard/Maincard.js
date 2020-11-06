@@ -37,7 +37,7 @@ export default function Maincard() {
                                         </div>
                                         <div className="flex-col">
                                             <div className="name">
-                                                Prayag Mukhi
+                                                Rachna Ranade
                                             </div>
                                             <div className="prof">
                                                 Author

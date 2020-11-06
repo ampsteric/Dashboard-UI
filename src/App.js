@@ -6,13 +6,14 @@ import Card from './Component/Card/Card'
 import MainCard from './Component/MainCard/Maincard'
 import Status from './Component/Status/Status'
 import SmallCard from './Component/Smallcard/Smallcard'
-import {BrowserRouter as  Router , Route} from 'react-router-dom';
+import {BrowserRouter as  Router , Route , Switch} from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     // <BrowserRouter>
     <Router>
+          <Switch>
         <Route path='/' exact>
               <div className="App">
               <Homepage />
@@ -87,6 +88,7 @@ function App() {
                     </div>
               </div> */}
         </Route>
+        </Switch>
     </Router>
     // </BrowserRouter>
   );

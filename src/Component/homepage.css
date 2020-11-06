@@ -35,6 +35,9 @@ form .form-group input {
     background-color: rgb(231, 21, 126) !important;
     margin-bottom: 10%;
 }
+.waves-effect {
+    color: white !important;
+}
 .welcome-image p {
     color: white;
 }
