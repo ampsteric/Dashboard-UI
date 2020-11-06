@@ -1,0 +1,26 @@
+.flexer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.co {
+    margin: 0% auto;
+    padding-left: 10%;
+}
+.main {
+    /* width: 60% ; */
+    /* background-color: #eee; */
+    border-radius: 0px !important;
+}
+.fa-youtube-play {
+    color: red;
+}
+.fa-facebook-square {
+    color: blue;
+}
+.fa-twitter-square {
+    color: blue;
+}
+.fa-check-circle {
+    color: green !important;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+span {
+    color: blue;
+}
+.welcome-image {
+    height: 100vh;
+    background-color: blue;
+}
+.welcome-text {
+    margin-bottom: 10%;
+}
+.header h4 {
+    text-align: left;
+    margin: 5% 0% 15% 5%;
+}
+.form img {
+    width: 20px;
+    margin-right: 10px;
+}
+.form p {
+    color: grey;
+    font-size: 10px;
+}
+form .form-group input {
+    /* text-align: center; */
+    margin: 0% auto;
+    width: 50%;
+}
+.btn {
+    width: 25% !important;
+    background-color: rgb(231, 21, 126) !important;
+    margin-bottom: 10%;
+}
+.welcome-image p {
+    color: white;
+}

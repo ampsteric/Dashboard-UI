@@ -1,0 +1,44 @@
+span {
+    color: blue;
+}
+.header-main-div {
+    background-color: white !important;
+}
+.flexi-row {
+    display: flex;
+}
+.flexi-row-right {
+    display: flex;
+    gap: 20px;
+}
+.flexi-row-right i {
+    margin-top: 5%;
+}
+.flexi-col {
+    display: flex;
+    margin-left: 2%;
+    flex-direction: column;
+}
+.flexi-col-header {
+    display: flex;
+    margin-left: 0%;
+    flex-direction: column;
+}
+.flexi-row img {
+    width: 50px;
+    border-radius: 50%;
+}
+.flexi-col p {
+    text-align: left;
+    color: rgb(151, 142, 142) !important;
+    margin: 0px !important;
+}
+.fa-bandcamp {
+    color: cornflowerblue;
+}
+.fa-cog {
+    color: cornflowerblue;
+}
+.flexi-col-header p {
+    margin-bottom: 0px;
+}

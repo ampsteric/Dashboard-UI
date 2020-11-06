@@ -1,0 +1,11 @@
+.co {
+    margin: 0% 1%;
+}
+.flexer-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexer-status p {
+    font-size: 15px;
+}
